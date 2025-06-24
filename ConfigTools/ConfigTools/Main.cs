@@ -208,7 +208,7 @@ namespace ConfigTools
                     try
                     {
                         AddLog($"开始生成[ {meta.TableName} ]代码");
-                        CodeHelper.GenCode(meta, sExportCfgType == ExportCfgType.Client ? sClientCodePath : sServerCodePath, sExportCfgType);
+                        CodeTableHelper.GenCode(meta, sExportCfgType == ExportCfgType.Client ? sClientCodePath : sServerCodePath, sExportCfgType);
                         AddLog($"生成[ {meta.TableName} ]代码成功");
                     }
                     catch (Exception exp)
@@ -221,7 +221,7 @@ namespace ConfigTools
                     try
                     {
                         AddLog($"开始生成[ {meta.TableName} ]配置");
-                        CfgHelper.GenCfg(dt, sExportCfgType == ExportCfgType.Client ? sClientCfgPath : sServerCfgPath, meta, sExportCfgType);
+                        CfgArrayHelper.GenCfg(dt, sExportCfgType == ExportCfgType.Client ? sClientCfgPath : sServerCfgPath, meta, sExportCfgType);
                         AddLog($"生成[ {meta.TableName} ]配置成功");
                     }
                     catch (Exception exp)
