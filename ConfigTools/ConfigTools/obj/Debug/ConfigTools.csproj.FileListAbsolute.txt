@@ -1,0 +1,7 @@
+D:\Demos\ExcelTools\ConfigTools\ConfigTools\obj\Debug\ConfigTools.csproj.AssemblyReference.cache
+D:\Demos\ExcelTools\ConfigTools\ConfigTools\obj\Debug\ConfigTools.csproj.SuggestedBindingRedirects.cache
+D:\Demos\ExcelTools\ConfigTools\ConfigTools\obj\Debug\ConfigTools.exe.config
+D:\Demos\ExcelTools\ConfigTools\ConfigTools\obj\Debug\ConfigTools.Main.resources
+D:\Demos\ExcelTools\ConfigTools\ConfigTools\obj\Debug\ConfigTools.Properties.Resources.resources
+D:\Demos\ExcelTools\ConfigTools\ConfigTools\obj\Debug\ConfigTools.csproj.GenerateResource.cache
+D:\Demos\ExcelTools\ConfigTools\ConfigTools\obj\Debug\ConfigTools.csproj.CoreCompileInputs.cache
