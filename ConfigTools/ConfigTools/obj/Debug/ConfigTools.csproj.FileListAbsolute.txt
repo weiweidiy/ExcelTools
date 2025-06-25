@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 E:\UnityProjects\ExcelTools\ConfigTools\ConfigTools\bin\Debug\ConfigTools.exe.config
 E:\UnityProjects\ExcelTools\ConfigTools\ConfigTools\bin\Debug\ConfigTools.exe
 E:\UnityProjects\ExcelTools\ConfigTools\ConfigTools\bin\Debug\ConfigTools.pdb
@@ -53,3 +54,12 @@ E:\UnityProjects\ExcelTools\ConfigTools\ConfigTools\obj\Debug\ConfigTools.csproj
 E:\UnityProjects\ExcelTools\ConfigTools\ConfigTools\obj\Debug\ConfigTo.1D0DB0F7.Up2Date
 E:\UnityProjects\ExcelTools\ConfigTools\ConfigTools\obj\Debug\ConfigTools.exe
 E:\UnityProjects\ExcelTools\ConfigTools\ConfigTools\obj\Debug\ConfigTools.pdb
+=======
+D:\Demos\ExcelTools\ConfigTools\ConfigTools\obj\Debug\ConfigTools.csproj.AssemblyReference.cache
+D:\Demos\ExcelTools\ConfigTools\ConfigTools\obj\Debug\ConfigTools.csproj.SuggestedBindingRedirects.cache
+D:\Demos\ExcelTools\ConfigTools\ConfigTools\obj\Debug\ConfigTools.exe.config
+D:\Demos\ExcelTools\ConfigTools\ConfigTools\obj\Debug\ConfigTools.Main.resources
+D:\Demos\ExcelTools\ConfigTools\ConfigTools\obj\Debug\ConfigTools.Properties.Resources.resources
+D:\Demos\ExcelTools\ConfigTools\ConfigTools\obj\Debug\ConfigTools.csproj.GenerateResource.cache
+D:\Demos\ExcelTools\ConfigTools\ConfigTools\obj\Debug\ConfigTools.csproj.CoreCompileInputs.cache
+>>>>>>> 79a5d1839fc30c93cf1e3e740eff20ec6ab1951f
