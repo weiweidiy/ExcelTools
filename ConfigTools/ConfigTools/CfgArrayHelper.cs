@@ -72,7 +72,7 @@ namespace ConfigTools
                             sw.WriteLine();
                     }
 
-                    sw.WriteLine("  }");
+                    //sw.WriteLine("  }");
                     sw.WriteLine(JsonTail);
                 }
             }

@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "E:\\UnityProjects\\ExcelTools\\ConfigTools\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE8E3C6C-58E1-478D-ADCA-24D8F8FB0735}|ConfigTools\\ConfigTools.csproj|e:\\unityprojects\\exceltools\\configtools\\configtools\\codetablehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CE8E3C6C-58E1-478D-ADCA-24D8F8FB0735}|ConfigTools\\ConfigTools.csproj|E:\\UnityProjects\\ExcelTools\\ConfigTools\\configtools\\cfgarrayhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE8E3C6C-58E1-478D-ADCA-24D8F8FB0735}|ConfigTools\\ConfigTools.csproj|solutionrelative:configtools\\cfgarrayhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8E3C6C-58E1-478D-ADCA-24D8F8FB0735}|ConfigTools\\ConfigTools.csproj|E:\\UnityProjects\\ExcelTools\\ConfigTools\\configtools\\codetablehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE8E3C6C-58E1-478D-ADCA-24D8F8FB0735}|ConfigTools\\ConfigTools.csproj|solutionrelative:configtools\\codetablehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,6 +23,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CfgArrayHelper.cs",
+              "DocumentMoniker": "E:\\UnityProjects\\ExcelTools\\ConfigTools\\ConfigTools\\CfgArrayHelper.cs",
+              "RelativeDocumentMoniker": "ConfigTools\\CfgArrayHelper.cs",
+              "ToolTip": "E:\\UnityProjects\\ExcelTools\\ConfigTools\\ConfigTools\\CfgArrayHelper.cs",
+              "RelativeToolTip": "ConfigTools\\CfgArrayHelper.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwEoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T15:40:41.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CodeTableHelper.cs",
               "DocumentMoniker": "E:\\UnityProjects\\ExcelTools\\ConfigTools\\ConfigTools\\CodeTableHelper.cs",
               "RelativeDocumentMoniker": "ConfigTools\\CodeTableHelper.cs",
@@ -26,8 +43,7 @@
               "RelativeToolTip": "ConfigTools\\CodeTableHelper.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAuwDkAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T15:27:28.723Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T15:27:28.723Z"
             }
           ]
         }
