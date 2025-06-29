@@ -66,7 +66,8 @@ namespace ConfigTools
                         }
                         sw.WriteLine();
                         sw.Write(JsonDataEnd);
-                        if (iRow != pDT.Rows.Count - 1)
+                        //不是最后一行，加逗号
+                        if (iRow != pDT.Rows.Count - 1 && !string.IsNullOrWhiteSpace(pDT.Rows[iRow+1].ItemArray[0].ToString()))
                             sw.WriteLine(",");
                         else
                             sw.WriteLine();

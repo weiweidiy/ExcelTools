@@ -70,8 +70,8 @@ namespace ConfigTools
         public List<TableField> Fields = new List<TableField>(8);
         public string TableName;
 
-        public string ClassName => TableName + "Cfg";
-        public string DataName => TableName + "Data";
+        public string ClassName => TableName + "Table";
+        public string DataName => TableName + "CfgData";
 
         public bool CheckTypeIsMap()
         {
