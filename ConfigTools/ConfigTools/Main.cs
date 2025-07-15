@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MathNet.Numerics.Distributions;
+using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 
@@ -193,6 +194,8 @@ namespace ConfigTools
             RefreshAllPaths();
             ShowInfo();
 
+            var lstMeta = new List<TableMeta>();
+
             for (var i = 0; i < clbCfgFiles.Items.Count; i++)
             {
                 if (clbCfgFiles.GetItemCheckState(i) != CheckState.Checked)
@@ -202,7 +205,7 @@ namespace ConfigTools
 
                 var dt = ExcelHelper.ImportExcelFile(excelFileInfo.Path);
                 var meta = ExcelHelper.ParseTableMeta(excelFileInfo.Name, dt, ExportCfgType.Client);
-
+                lstMeta.Add(meta);
                 //生成代码
                 if (sCanExportCode)
                     try
@@ -229,9 +232,11 @@ namespace ConfigTools
                         AddLog($"生成[{meta.TableName}]配置出现异常 => {exp.Message}");
                         return;
                     }
-
                 AddLog("");
             }
+
+            CodeRegisterTableHelper.GenCode(lstMeta, sExportCfgType == ExportCfgType.Client ? sClientCodePath : sServerCodePath, sExportCfgType);
+
             RegistryHelper.SaveData();
         }
 
