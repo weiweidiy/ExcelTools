@@ -120,6 +120,7 @@
     <Compile Include="CfgArrayHelper.cs" />
     <Compile Include="CfgHelper.cs" />
     <Compile Include="CodeHelper.cs" />
+    <Compile Include="CodeRegisterTableHelper.cs" />
     <Compile Include="CodeTableHelper.cs" />
     <Compile Include="CommonDefines.cs" />
     <Compile Include="ExcelHelper.cs" />

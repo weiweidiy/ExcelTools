@@ -57,10 +57,9 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.GreenYellow;
-            this.label1.Location = new System.Drawing.Point(20, 20);
-            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label1.Location = new System.Drawing.Point(10, 10);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(202, 24);
+            this.label1.Size = new System.Drawing.Size(101, 12);
             this.label1.TabIndex = 0;
             this.label1.Text = "Excel文件夹路径:";
             // 
@@ -68,10 +67,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Turquoise;
-            this.label2.Location = new System.Drawing.Point(56, 68);
-            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label2.Location = new System.Drawing.Point(28, 34);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(166, 24);
+            this.label2.Size = new System.Drawing.Size(83, 12);
             this.label2.TabIndex = 1;
             this.label2.Text = "输出代码路径:";
             // 
@@ -79,10 +77,9 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.label3.Location = new System.Drawing.Point(32, 116);
-            this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label3.Location = new System.Drawing.Point(16, 58);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(190, 24);
+            this.label3.Size = new System.Drawing.Size(95, 12);
             this.label3.TabIndex = 2;
             this.label3.Text = "输出配置表路径:";
             // 
@@ -99,19 +96,17 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(-2, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.panel1.Location = new System.Drawing.Point(-1, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1464, 172);
+            this.panel1.Size = new System.Drawing.Size(732, 86);
             this.panel1.TabIndex = 3;
             // 
             // btnRefresh
             // 
             this.btnRefresh.BackColor = System.Drawing.Color.AntiqueWhite;
-            this.btnRefresh.Location = new System.Drawing.Point(1310, 32);
-            this.btnRefresh.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnRefresh.Location = new System.Drawing.Point(655, 16);
             this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.Size = new System.Drawing.Size(114, 108);
+            this.btnRefresh.Size = new System.Drawing.Size(57, 54);
             this.btnRefresh.TabIndex = 9;
             this.btnRefresh.Text = "刷新";
             this.btnRefresh.UseVisualStyleBackColor = false;
@@ -119,10 +114,9 @@
             // 
             // btnCfgPath
             // 
-            this.btnCfgPath.Location = new System.Drawing.Point(1196, 106);
-            this.btnCfgPath.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnCfgPath.Location = new System.Drawing.Point(598, 53);
             this.btnCfgPath.Name = "btnCfgPath";
-            this.btnCfgPath.Size = new System.Drawing.Size(62, 46);
+            this.btnCfgPath.Size = new System.Drawing.Size(31, 23);
             this.btnCfgPath.TabIndex = 8;
             this.btnCfgPath.Text = "...";
             this.btnCfgPath.UseVisualStyleBackColor = true;
@@ -130,10 +124,9 @@
             // 
             // btnCodePath
             // 
-            this.btnCodePath.Location = new System.Drawing.Point(1196, 58);
-            this.btnCodePath.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnCodePath.Location = new System.Drawing.Point(598, 29);
             this.btnCodePath.Name = "btnCodePath";
-            this.btnCodePath.Size = new System.Drawing.Size(62, 46);
+            this.btnCodePath.Size = new System.Drawing.Size(31, 23);
             this.btnCodePath.TabIndex = 7;
             this.btnCodePath.Text = "...";
             this.btnCodePath.UseVisualStyleBackColor = true;
@@ -141,10 +134,9 @@
             // 
             // btnExcelPath
             // 
-            this.btnExcelPath.Location = new System.Drawing.Point(1196, 10);
-            this.btnExcelPath.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnExcelPath.Location = new System.Drawing.Point(598, 5);
             this.btnExcelPath.Name = "btnExcelPath";
-            this.btnExcelPath.Size = new System.Drawing.Size(62, 46);
+            this.btnExcelPath.Size = new System.Drawing.Size(31, 23);
             this.btnExcelPath.TabIndex = 6;
             this.btnExcelPath.Text = "...";
             this.btnExcelPath.UseVisualStyleBackColor = true;
@@ -152,26 +144,23 @@
             // 
             // mCfgOutPath
             // 
-            this.mCfgOutPath.Location = new System.Drawing.Point(234, 108);
-            this.mCfgOutPath.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.mCfgOutPath.Location = new System.Drawing.Point(117, 54);
             this.mCfgOutPath.Name = "mCfgOutPath";
-            this.mCfgOutPath.Size = new System.Drawing.Size(944, 35);
+            this.mCfgOutPath.Size = new System.Drawing.Size(474, 21);
             this.mCfgOutPath.TabIndex = 5;
             // 
             // mCodeOutPath
             // 
-            this.mCodeOutPath.Location = new System.Drawing.Point(234, 60);
-            this.mCodeOutPath.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.mCodeOutPath.Location = new System.Drawing.Point(117, 30);
             this.mCodeOutPath.Name = "mCodeOutPath";
-            this.mCodeOutPath.Size = new System.Drawing.Size(944, 35);
+            this.mCodeOutPath.Size = new System.Drawing.Size(474, 21);
             this.mCodeOutPath.TabIndex = 4;
             // 
             // mExcelPath
             // 
-            this.mExcelPath.Location = new System.Drawing.Point(234, 12);
-            this.mExcelPath.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.mExcelPath.Location = new System.Drawing.Point(117, 6);
             this.mExcelPath.Name = "mExcelPath";
-            this.mExcelPath.Size = new System.Drawing.Size(944, 35);
+            this.mExcelPath.Size = new System.Drawing.Size(474, 21);
             this.mExcelPath.TabIndex = 3;
             // 
             // clbCfgFiles
@@ -179,28 +168,25 @@
             this.clbCfgFiles.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.clbCfgFiles.ForeColor = System.Drawing.Color.Blue;
             this.clbCfgFiles.FormattingEnabled = true;
-            this.clbCfgFiles.Location = new System.Drawing.Point(22, 352);
-            this.clbCfgFiles.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.clbCfgFiles.Location = new System.Drawing.Point(11, 176);
             this.clbCfgFiles.Name = "clbCfgFiles";
-            this.clbCfgFiles.Size = new System.Drawing.Size(528, 688);
+            this.clbCfgFiles.Size = new System.Drawing.Size(266, 346);
             this.clbCfgFiles.TabIndex = 4;
             // 
             // textLog
             // 
-            this.textLog.Location = new System.Drawing.Point(566, 352);
-            this.textLog.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.textLog.Location = new System.Drawing.Point(283, 176);
             this.textLog.Multiline = true;
             this.textLog.Name = "textLog";
-            this.textLog.Size = new System.Drawing.Size(870, 688);
+            this.textLog.Size = new System.Drawing.Size(437, 346);
             this.textLog.TabIndex = 5;
             // 
             // cbGenCode
             // 
             this.cbGenCode.AutoSize = true;
-            this.cbGenCode.Location = new System.Drawing.Point(58, 196);
-            this.cbGenCode.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.cbGenCode.Location = new System.Drawing.Point(29, 98);
             this.cbGenCode.Name = "cbGenCode";
-            this.cbGenCode.Size = new System.Drawing.Size(138, 28);
+            this.cbGenCode.Size = new System.Drawing.Size(72, 16);
             this.cbGenCode.TabIndex = 6;
             this.cbGenCode.Text = "生成代码";
             this.cbGenCode.UseVisualStyleBackColor = true;
@@ -209,10 +195,9 @@
             // cbGenCfg
             // 
             this.cbGenCfg.AutoSize = true;
-            this.cbGenCfg.Location = new System.Drawing.Point(58, 252);
-            this.cbGenCfg.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.cbGenCfg.Location = new System.Drawing.Point(29, 126);
             this.cbGenCfg.Name = "cbGenCfg";
-            this.cbGenCfg.Size = new System.Drawing.Size(138, 28);
+            this.cbGenCfg.Size = new System.Drawing.Size(72, 16);
             this.cbGenCfg.TabIndex = 7;
             this.cbGenCfg.Text = "生成配置";
             this.cbGenCfg.UseVisualStyleBackColor = true;
@@ -221,10 +206,9 @@
             // btnGen
             // 
             this.btnGen.BackColor = System.Drawing.Color.MediumSpringGreen;
-            this.btnGen.Location = new System.Drawing.Point(566, 198);
-            this.btnGen.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnGen.Location = new System.Drawing.Point(283, 99);
             this.btnGen.Name = "btnGen";
-            this.btnGen.Size = new System.Drawing.Size(856, 92);
+            this.btnGen.Size = new System.Drawing.Size(428, 46);
             this.btnGen.TabIndex = 10;
             this.btnGen.Text = "生成数据";
             this.btnGen.UseVisualStyleBackColor = false;
@@ -232,10 +216,9 @@
             // 
             // btnAllCheck
             // 
-            this.btnAllCheck.Location = new System.Drawing.Point(70, 1054);
-            this.btnAllCheck.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnAllCheck.Location = new System.Drawing.Point(35, 527);
             this.btnAllCheck.Name = "btnAllCheck";
-            this.btnAllCheck.Size = new System.Drawing.Size(150, 68);
+            this.btnAllCheck.Size = new System.Drawing.Size(75, 34);
             this.btnAllCheck.TabIndex = 11;
             this.btnAllCheck.Text = "全部勾选";
             this.btnAllCheck.UseVisualStyleBackColor = true;
@@ -243,10 +226,9 @@
             // 
             // btnAllUncheck
             // 
-            this.btnAllUncheck.Location = new System.Drawing.Point(336, 1054);
-            this.btnAllUncheck.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnAllUncheck.Location = new System.Drawing.Point(168, 527);
             this.btnAllUncheck.Name = "btnAllUncheck";
-            this.btnAllUncheck.Size = new System.Drawing.Size(150, 68);
+            this.btnAllUncheck.Size = new System.Drawing.Size(75, 34);
             this.btnAllUncheck.TabIndex = 12;
             this.btnAllUncheck.Text = "全部取消";
             this.btnAllUncheck.UseVisualStyleBackColor = true;
@@ -255,11 +237,9 @@
             // rbClient
             // 
             this.rbClient.AutoSize = true;
-            this.rbClient.Enabled = true;
-            this.rbClient.Location = new System.Drawing.Point(252, 219);
-            this.rbClient.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.rbClient.Location = new System.Drawing.Point(126, 110);
             this.rbClient.Name = "rbClient";
-            this.rbClient.Size = new System.Drawing.Size(113, 28);
+            this.rbClient.Size = new System.Drawing.Size(59, 16);
             this.rbClient.TabIndex = 13;
             this.rbClient.TabStop = true;
             this.rbClient.Text = "Client";
@@ -269,11 +249,9 @@
             // rbServer
             // 
             this.rbServer.AutoSize = true;
-            this.rbServer.Enabled = true;
-            this.rbServer.Location = new System.Drawing.Point(384, 219);
-            this.rbServer.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.rbServer.Location = new System.Drawing.Point(192, 110);
             this.rbServer.Name = "rbServer";
-            this.rbServer.Size = new System.Drawing.Size(113, 28);
+            this.rbServer.Size = new System.Drawing.Size(59, 16);
             this.rbServer.TabIndex = 14;
             this.rbServer.TabStop = true;
             this.rbServer.Text = "Server";
@@ -282,19 +260,17 @@
             // 
             // panel2
             // 
-            this.panel2.Location = new System.Drawing.Point(252, 219);
-            this.panel2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.panel2.Location = new System.Drawing.Point(126, 110);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(256, 40);
+            this.panel2.Size = new System.Drawing.Size(128, 20);
             this.panel2.TabIndex = 15;
             // 
             // NeedCom
             // 
             this.NeedCom.AutoSize = true;
-            this.NeedCom.Location = new System.Drawing.Point(254, 306);
-            this.NeedCom.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.NeedCom.Location = new System.Drawing.Point(127, 153);
             this.NeedCom.Name = "NeedCom";
-            this.NeedCom.Size = new System.Drawing.Size(378, 28);
+            this.NeedCom.Size = new System.Drawing.Size(192, 16);
             this.NeedCom.TabIndex = 16;
             this.NeedCom.Text = "压缩生成配置(发布时需要勾选)";
             this.NeedCom.UseVisualStyleBackColor = true;
@@ -302,10 +278,10 @@
             // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Thistle;
-            this.ClientSize = new System.Drawing.Size(1464, 1132);
+            this.ClientSize = new System.Drawing.Size(824, 597);
             this.Controls.Add(this.rbServer);
             this.Controls.Add(this.NeedCom);
             this.Controls.Add(this.rbClient);
@@ -319,7 +295,6 @@
             this.Controls.Add(this.clbCfgFiles);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "Main";
             this.Text = "ExcelTools";
             this.Load += new System.EventHandler(this.Main_Load);

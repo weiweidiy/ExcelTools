@@ -58,11 +58,11 @@ namespace ConfigTools
                             else if (pTableMeta.Fields[iCol].mTypeName == "bool")
                                 sw.Write(ParseBool(_D));
                             else if (pTableMeta.Fields[iCol].mTypeName == "int+")
-                                sw.Write(ParseIntList(_D));
+                                sw.Write(ParseInt2DList(_D));
                             else if (pTableMeta.Fields[iCol].mTypeName == "float+")
                                 sw.Write(ParseFloatList(_D));
                             else if (pTableMeta.Fields[iCol].mTypeName == "string+")
-                                sw.Write(ParseStringList(_D));
+                                sw.Write(ParseString2DList(_D));
                         }
                         sw.WriteLine();
                         sw.Write(JsonDataEnd);
@@ -146,9 +146,44 @@ namespace ConfigTools
             return strData;
         }
 
+        public static string ParseInt2DList(string pData)
+        {
+            if (string.IsNullOrWhiteSpace(pData))
+                return "[]";
+
+            var rows = pData.Split('|');
+            var sb = new StringBuilder();
+            sb.Append("[\r\n");
+
+            bool firstRow = true;
+            foreach (var row in rows)
+            {
+                var trimmedRow = row.Trim();
+                if (trimmedRow.Length == 0)
+                    continue;
+
+                if (!firstRow)
+                    sb.Append(",\r\n");
+                sb.Append("    [");
+
+                var cols = trimmedRow.Split(';');
+                for (int i = 0; i < cols.Length; i++)
+                {
+                    if (i != 0)
+                        sb.Append(", ");
+                    sb.Append(cols[i].Trim());
+                }
+                sb.Append("]");
+                firstRow = false;
+            }
+
+            sb.Append("\r\n]");
+            return sb.ToString();
+        }
+
         public static string ParseFloatList(string pData)
         {
-            return ParseIntList(pData);
+            return ParseInt2DList(pData);
         }
 
         public static string ParseStringList(string pData)
@@ -170,6 +205,41 @@ namespace ConfigTools
 
             strData += "\r\n         ]";
             return strData;
+        }
+
+        public static string ParseString2DList(string pData)
+        {
+            if (string.IsNullOrWhiteSpace(pData))
+                return "[]";
+
+            var rows = pData.Split('|');
+            var sb = new StringBuilder();
+            sb.Append("[\r\n");
+
+            bool firstRow = true;
+            foreach (var row in rows)
+            {
+                var trimmedRow = row.Trim();
+                if (trimmedRow.Length == 0)
+                    continue;
+
+                if (!firstRow)
+                    sb.Append(",\r\n");
+                sb.Append("    [");
+
+                var cols = trimmedRow.Split(';');
+                for (int i = 0; i < cols.Length; i++)
+                {
+                    if (i != 0)
+                        sb.Append(", ");
+                    sb.Append("\"" + cols[i].Trim().Replace("\"", "\\\"") + "\"");
+                }
+                sb.Append("]");
+                firstRow = false;
+            }
+
+            sb.Append("\r\n]");
+            return sb.ToString();
         }
     }
 }

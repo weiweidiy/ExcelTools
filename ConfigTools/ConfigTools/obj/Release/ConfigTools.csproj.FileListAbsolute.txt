@@ -53,3 +53,4 @@ E:\UnityProjects\ExcelTools\ConfigTools\ConfigTools\obj\Release\ConfigTools.cspr
 E:\UnityProjects\ExcelTools\ConfigTools\ConfigTools\obj\Release\ConfigTo.1D0DB0F7.Up2Date
 E:\UnityProjects\ExcelTools\ConfigTools\ConfigTools\obj\Release\ConfigTools.exe
 E:\UnityProjects\ExcelTools\ConfigTools\ConfigTools\obj\Release\ConfigTools.pdb
+E:\UnityProjects\ExcelTools\ConfigTools\ConfigTools\obj\Release\ConfigTools.exe.config

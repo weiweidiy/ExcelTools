@@ -11,7 +11,7 @@ namespace ConfigTools
             if (pCfgType == ExportCfgType.Client)
                 GenCSCode(pTableMeta, pPath, pCfgType);
             else if (pCfgType == ExportCfgType.Server)
-                GenGOCode(pTableMeta, pPath, pCfgType);
+                GenCSCode(pTableMeta, pPath, pCfgType);
         }
 
         private static void GenCSCode(List<TableMeta> pTableMetas, string pPath, ExportCfgType pCfgType)

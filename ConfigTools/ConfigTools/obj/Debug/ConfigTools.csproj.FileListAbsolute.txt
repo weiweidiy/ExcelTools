@@ -63,3 +63,4 @@ D:\Demos\ExcelTools\ConfigTools\ConfigTools\obj\Debug\ConfigTools.Properties.Res
 D:\Demos\ExcelTools\ConfigTools\ConfigTools\obj\Debug\ConfigTools.csproj.GenerateResource.cache
 D:\Demos\ExcelTools\ConfigTools\ConfigTools\obj\Debug\ConfigTools.csproj.CoreCompileInputs.cache
 >>>>>>> 79a5d1839fc30c93cf1e3e740eff20ec6ab1951f
+E:\UnityProjects\ExcelTools\ConfigTools\ConfigTools\obj\Debug\ConfigTools.exe.config
