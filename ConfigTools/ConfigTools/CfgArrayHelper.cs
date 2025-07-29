@@ -58,10 +58,16 @@ namespace ConfigTools
                             else if (pTableMeta.Fields[iCol].mTypeName == "bool")
                                 sw.Write(ParseBool(_D));
                             else if (pTableMeta.Fields[iCol].mTypeName == "int+")
-                                sw.Write(ParseInt2DList(_D));
+                                sw.Write(ParseIntList(_D));
                             else if (pTableMeta.Fields[iCol].mTypeName == "float+")
                                 sw.Write(ParseFloatList(_D));
                             else if (pTableMeta.Fields[iCol].mTypeName == "string+")
+                                sw.Write(ParseStringList(_D));
+                            else if (pTableMeta.Fields[iCol].mTypeName == "int++")
+                                sw.Write(ParseInt2DList(_D));
+                            else if (pTableMeta.Fields[iCol].mTypeName == "float++")
+                                sw.Write(ParseInt2DList(_D));
+                            else if (pTableMeta.Fields[iCol].mTypeName == "string++")
                                 sw.Write(ParseString2DList(_D));
                         }
                         sw.WriteLine();
@@ -183,7 +189,7 @@ namespace ConfigTools
 
         public static string ParseFloatList(string pData)
         {
-            return ParseInt2DList(pData);
+            return ParseIntList(pData);
         }
 
         public static string ParseStringList(string pData)

@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "E:\\UnityProjects\\ExcelTools\\ConfigTools\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE8E3C6C-58E1-478D-ADCA-24D8F8FB0735}|ConfigTools\\ConfigTools.csproj|e:\\unityprojects\\exceltools\\configtools\\configtools\\coderegistertablehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE8E3C6C-58E1-478D-ADCA-24D8F8FB0735}|ConfigTools\\ConfigTools.csproj|solutionrelative:configtools\\coderegistertablehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE8E3C6C-58E1-478D-ADCA-24D8F8FB0735}|ConfigTools\\ConfigTools.csproj|e:\\unityprojects\\exceltools\\configtools\\configtools\\metahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE8E3C6C-58E1-478D-ADCA-24D8F8FB0735}|ConfigTools\\ConfigTools.csproj|solutionrelative:configtools\\metahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE8E3C6C-58E1-478D-ADCA-24D8F8FB0735}|ConfigTools\\ConfigTools.csproj|e:\\unityprojects\\exceltools\\configtools\\configtools\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE8E3C6C-58E1-478D-ADCA-24D8F8FB0735}|ConfigTools\\ConfigTools.csproj|solutionrelative:configtools\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE8E3C6C-58E1-478D-ADCA-24D8F8FB0735}|ConfigTools\\ConfigTools.csproj|E:\\UnityProjects\\ExcelTools\\ConfigTools\\configtools\\cfgarrayhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE8E3C6C-58E1-478D-ADCA-24D8F8FB0735}|ConfigTools\\ConfigTools.csproj|solutionrelative:configtools\\cfgarrayhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE8E3C6C-58E1-478D-ADCA-24D8F8FB0735}|ConfigTools\\ConfigTools.csproj|e:\\unityprojects\\exceltools\\configtools\\configtools\\codetablehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CE8E3C6C-58E1-478D-ADCA-24D8F8FB0735}|ConfigTools\\ConfigTools.csproj|E:\\UnityProjects\\ExcelTools\\ConfigTools\\configtools\\codetablehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE8E3C6C-58E1-478D-ADCA-24D8F8FB0735}|ConfigTools\\ConfigTools.csproj|solutionrelative:configtools\\codetablehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE8E3C6C-58E1-478D-ADCA-24D8F8FB0735}|ConfigTools\\ConfigTools.csproj|e:\\unityprojects\\exceltools\\configtools\\configtools\\codehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CE8E3C6C-58E1-478D-ADCA-24D8F8FB0735}|ConfigTools\\ConfigTools.csproj|E:\\UnityProjects\\ExcelTools\\ConfigTools\\configtools\\codehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE8E3C6C-58E1-478D-ADCA-24D8F8FB0735}|ConfigTools\\ConfigTools.csproj|solutionrelative:configtools\\codehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE8E3C6C-58E1-478D-ADCA-24D8F8FB0735}|ConfigTools\\ConfigTools.csproj|e:\\unityprojects\\exceltools\\configtools\\configtools\\cfghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE8E3C6C-58E1-478D-ADCA-24D8F8FB0735}|ConfigTools\\ConfigTools.csproj|solutionrelative:configtools\\cfghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE8E3C6C-58E1-478D-ADCA-24D8F8FB0735}|ConfigTools\\ConfigTools.csproj|E:\\UnityProjects\\ExcelTools\\ConfigTools\\configtools\\coderegistertablehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE8E3C6C-58E1-478D-ADCA-24D8F8FB0735}|ConfigTools\\ConfigTools.csproj|solutionrelative:configtools\\coderegistertablehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE8E3C6C-58E1-478D-ADCA-24D8F8FB0735}|ConfigTools\\ConfigTools.csproj|e:\\unityprojects\\exceltools\\configtools\\configtools\\cfgarrayhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE8E3C6C-58E1-478D-ADCA-24D8F8FB0735}|ConfigTools\\ConfigTools.csproj|solutionrelative:configtools\\cfgarrayhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE8E3C6C-58E1-478D-ADCA-24D8F8FB0735}|ConfigTools\\ConfigTools.csproj|E:\\UnityProjects\\ExcelTools\\ConfigTools\\configtools\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE8E3C6C-58E1-478D-ADCA-24D8F8FB0735}|ConfigTools\\ConfigTools.csproj|solutionrelative:configtools\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,27 +39,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CodeRegisterTableHelper.cs",
-              "DocumentMoniker": "E:\\UnityProjects\\ExcelTools\\ConfigTools\\ConfigTools\\CodeRegisterTableHelper.cs",
-              "RelativeDocumentMoniker": "ConfigTools\\CodeRegisterTableHelper.cs",
-              "ToolTip": "E:\\UnityProjects\\ExcelTools\\ConfigTools\\ConfigTools\\CodeRegisterTableHelper.cs",
-              "RelativeToolTip": "ConfigTools\\CodeRegisterTableHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Title": "MetaHelper.cs",
+              "DocumentMoniker": "E:\\UnityProjects\\ExcelTools\\ConfigTools\\ConfigTools\\MetaHelper.cs",
+              "RelativeDocumentMoniker": "ConfigTools\\MetaHelper.cs",
+              "ToolTip": "E:\\UnityProjects\\ExcelTools\\ConfigTools\\ConfigTools\\MetaHelper.cs",
+              "RelativeToolTip": "ConfigTools\\MetaHelper.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAqwCoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T03:50:24.891Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Main.cs",
-              "DocumentMoniker": "E:\\UnityProjects\\ExcelTools\\ConfigTools\\ConfigTools\\Main.cs",
-              "RelativeDocumentMoniker": "ConfigTools\\Main.cs",
-              "ToolTip": "E:\\UnityProjects\\ExcelTools\\ConfigTools\\ConfigTools\\Main.cs",
-              "RelativeToolTip": "ConfigTools\\Main.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T03:50:01.264Z",
+              "WhenOpened": "2025-07-27T04:47:32.224Z",
               "EditorCaption": ""
             },
             {
@@ -70,10 +57,33 @@
               "RelativeDocumentMoniker": "ConfigTools\\CodeTableHelper.cs",
               "ToolTip": "E:\\UnityProjects\\ExcelTools\\ConfigTools\\ConfigTools\\CodeTableHelper.cs",
               "RelativeToolTip": "ConfigTools\\CodeTableHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAAEIAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T03:48:43.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T04:44:45.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CodeRegisterTableHelper.cs",
+              "DocumentMoniker": "E:\\UnityProjects\\ExcelTools\\ConfigTools\\ConfigTools\\CodeRegisterTableHelper.cs",
+              "RelativeDocumentMoniker": "ConfigTools\\CodeRegisterTableHelper.cs",
+              "ToolTip": "E:\\UnityProjects\\ExcelTools\\ConfigTools\\ConfigTools\\CodeRegisterTableHelper.cs",
+              "RelativeToolTip": "ConfigTools\\CodeRegisterTableHelper.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T03:50:24.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Main.cs",
+              "DocumentMoniker": "E:\\UnityProjects\\ExcelTools\\ConfigTools\\ConfigTools\\Main.cs",
+              "RelativeDocumentMoniker": "ConfigTools\\Main.cs",
+              "ToolTip": "E:\\UnityProjects\\ExcelTools\\ConfigTools\\ConfigTools\\Main.cs",
+              "RelativeToolTip": "ConfigTools\\Main.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T03:50:01.264Z"
             },
             {
               "$type": "Document",
@@ -85,34 +95,19 @@
               "RelativeToolTip": "ConfigTools\\CodeHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAIwAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T03:48:19.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T03:48:19.094Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CfgHelper.cs",
-              "DocumentMoniker": "E:\\UnityProjects\\ExcelTools\\ConfigTools\\ConfigTools\\CfgHelper.cs",
-              "RelativeDocumentMoniker": "ConfigTools\\CfgHelper.cs",
-              "ToolTip": "E:\\UnityProjects\\ExcelTools\\ConfigTools\\ConfigTools\\CfgHelper.cs",
-              "RelativeToolTip": "ConfigTools\\CfgHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEBAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T03:47:48.323Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "CfgArrayHelper.cs",
               "DocumentMoniker": "E:\\UnityProjects\\ExcelTools\\ConfigTools\\ConfigTools\\CfgArrayHelper.cs",
               "RelativeDocumentMoniker": "ConfigTools\\CfgArrayHelper.cs",
               "ToolTip": "E:\\UnityProjects\\ExcelTools\\ConfigTools\\ConfigTools\\CfgArrayHelper.cs",
               "RelativeToolTip": "ConfigTools\\CfgArrayHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAiwEUAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T15:40:41.306Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T15:40:41.306Z"
             }
           ]
         }

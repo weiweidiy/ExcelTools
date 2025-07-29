@@ -13,7 +13,7 @@ namespace ConfigTools
         public static string[] CSharp_TypeNames =
         {
             "int", "float", "string", "bool", "List<int>", "List<float>",
-            "List<string>"
+            "List<string>", "List<List<int>>","List<List<float>>","List<List<string>>"
         };
 
         public string mSpostil;
@@ -40,12 +40,18 @@ namespace ConfigTools
                 _type = TableFieldType.TFT_FloatList;
             else if (mTypeName == "string+")
                 _type = TableFieldType.TFT_StringList;
+            else if (mTypeName == "int++")
+                _type = TableFieldType.TFT_Int2DList;
+            else if (mTypeName == "float++")
+                _type = TableFieldType.TFT_Float2DList;
+            else if (mTypeName == "string++")
+                _type = TableFieldType.TFT_String2DList;
 
 
             if (pType == ExportCfgType.Client)
-                return CSharp_TypeNames[(int) _type];
+                return CSharp_TypeNames[(int)_type];
             if (pType == ExportCfgType.Server)
-                return GO_TypeNames[(int) _type];
+                return CSharp_TypeNames[(int)_type];
 
             return null;
         }
